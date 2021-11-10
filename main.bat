@@ -21,7 +21,7 @@ goto END
 :UNLOCK
 echo Enter password to Unlock folder
 set/p "pass=>"
-if NOT %pass%==yusuf123 goto FAIL
+if NOT %pass%==YOUR PASSWORD goto FAIL
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Locker
 echo Folder Unlocked successfully
